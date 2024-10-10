@@ -225,8 +225,10 @@ button:hover {
     height: 100%;
     pointer-events: none;
 }
-audio {
+.audio {
     display:block;
+    color : transparent;
+    background-color: transparent;
 }
 
 </style>
@@ -234,7 +236,7 @@ audio {
 <body style="background-image: url('bir copy.jpg');">
     <div class="card">
         <img src="i1.jpg" alt="Birthday Person" class="photo">
-              <audio controls autoplay loop>
+              <audio id="audio" controls autoplay loop>
                 <source src="dandelions.mp3" type="audio/mpeg">
                 <source src="dandelions.ogg" type="audio/ogg">
                
